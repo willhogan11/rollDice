@@ -1,7 +1,6 @@
 
-function intDec(plusMinus)
+function incDec(plusMinus)
 {
-	var intDec = 0;
 	var plusMinus = parseInt(plusMinus);
 	var currentLife = parseInt(document.getElementById("myLife").innerHTML)+plusMinus;
 	// alert(currentLife);
